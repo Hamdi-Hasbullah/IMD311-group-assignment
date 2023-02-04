@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="./css/product.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+    <style>
+        .product-list {
+            width: 100%;
+            background-color: #0f0f0f;
+            height: 2000px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box-product img {
+            margin-bottom: 10px;
+        }
+
+        .product-list .box-product {
+            width: 200px;
+            height: 400px;
+            border-bottom: 1px solid white;
+            margin: 20px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .caption-product {
+            margin: 10px;
+        }
+
+        .price {
+            margin-bottom: 10px;
+            color: goldenrod;
+        }
+
+        .buy-button {
+            font-size: 17px;
+            width: 100px;
+            display: block;
+            padding: 10px;
+            text-align: center;
+            border-radius: 30px;
+            text-decoration: none;
+            color: white;
+            margin-bottom: 40px;
+            background-color: #f9004d;
+        }
+
+        .product-container {
+            width: 75%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+    </style>
+<body>
+    <div class="product-header animate__animated animate__backInDown">
+    <nav>
+        <div>
+            <span class="logo"><img src="./images/Picture1.png" width="80"></span>
+        </div>
+        <ul>
+            <li class="underline"><a href="./index.html">HOME</a></li>
+            <li class="underline"><a href="./about.html">ABOUT</a></li>
+            <li class="underline"><a href="./product.html">PRODUCTS</a></li>
+            <li class="underline"><a href="./faq.html">FAQs</a></li>
+            <li class="underline"><a href="./contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+    <div class="intro-product animate__animated animate__fadeInLeft animate__delay-1s">
+    <pre class="animate__animated animate__lightSpeedInRight animate__delay-1s">"Step into style with our sleek, 
+    comfortable shoes, crafted 
+    for the modern trendsetter."</pre>
+    </div>
+    <p class="animate__animated animate__lightSpeedInRight animate__delay-1s">Shoes being sold are designed for someone who wants to be stylish and trendy, 
+        and they are both fashionable and comfortable to wear.</p>
+    <a class="started animate__animated animate__fadeIn animate__delay-1s" href="#firstSection"> Get Started</a>
+    </div>
+    <div class="what-we-do" id="firstSection">
+        <h1 class="myP">Product & Services</h1>
+        <div class="box-container">
+            <div class="box1 ">
+                <img src="./images/shoeshine.png">
+                <div class="para-box1 ">
+                    <p  style="text-align: center; font-size: 20px;color: #f9004d; margin-top: 20px;">CLEANING SHOES</p>
+                    <p style="text-align: justify; margin-top: 10px; width: 450px;">"Keep your shoes looking like new with Sheesh Shoes's professional cleaning services. Our state-of-the-art process removes dirt, stains, and odors, leaving your shoes refreshed and rejuvenated. We use only the finest, eco-friendly cleaning products to ensure your shoes are protected and preserved. Schedule your appointment today and step out in style with shoes that shine.</p>
+                </div>
+            </div>
+            <div class="box2">
+                <img src="./images/shoes.png">
+                <div class="para-box2">
+                    <p style="text-align: center; font-size: 20px;color: #f9004d;">SELLING SHOES</p>  
+                    <p style="text-align: justify; margin-top: 10px; width: 450px;">
+                        "At SheeshShoes, we believe that every step should be taken in style and comfort. That's why we offer a wide range of shoes for every occasion, carefully selected for their quality and design. Our team of experts is always available to help you find the perfect pair, and we pride ourselves. Shop now and step up your shoe game with Sheesh Shoes.
+                    </p>  
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="product-list">
+
+        <div class="product-container">
+                <div class="box-product">
+            <img src="./images/NikeBlazer.jpeg" width="200" alt="blazer">
+            <p class="caption-product">Nike Blazer</p>
+            <p class="price">RM 1000</p>
+            <a class="buy-button" href="https://www.instagram.com/sheeshshoes_/">BUY</a>
+        </div>
+        <div class="box-product">
+            <img src="./images/Nikesbdunklow.jpeg" width="200" alt="sb down low">
+            <p class="caption-product">Nike sb dunk low</p>
+            <p class="price">RM 1000</p>
+            <a class="buy-button" href="https://www.instagram.com/sheeshshoes_/">BUY</a>
+        </div>
+        <div class="box-product">
+            <img src="./images/nikeairmax97.jpeg" width="200" alt="air max 97">
+            <p class="caption-product">Nike air max 97</p>
+            <p class="price">RM 1000</p>
+            <a class="buy-button" href="https://www.instagram.com/sheeshshoes_/">BUY</a>
+        </div>
+        <div class="box-product">
+            <img src="./images/NIketravisscott.jpeg" width="200" alt="travis scott">
+            <p class="caption-product">Nike Travis scott</p>
+            <p class="price">RM 1000</p>
+            <a class="buy-button" href="https://www.instagram.com/sheeshshoes_/">BUY</a>
+        </div>
+        <!-- <div class="box-product">
+            <img src="./images/NikeBlazer.jpeg" width="200" alt="blazer">
+            <p class="caption-product">Nike Blazer</p>
+            <p class="price">RM 1000</p>
+            <a class="buy-button" href="https://www.instagram.com/sheeshshoes_/">BUY</a>
+        </div>
+        <div class="box-product">
+            <img src="./images/Nikesbdunklow.jpeg" width="200" alt="sb down low">
+            <p class="caption-product">Nike sb dunk low</p>
+            <p class="price">RM 1000</p>
+            <a class="buy-button" href="https://www.instagram.com/sheeshshoes_/">BUY</a>
+        </div>
+        <div class="box-product">
+            <img src="./images/nikeairmax97.jpeg" width="200" alt="air max 97">
+            <p class="caption-product">Nike air max 97</p>
+            <p class="price">RM 1000</p>
+            <a class="buy-button" href="https://www.instagram.com/sheeshshoes_/">BUY</a>
+        </div>
+        <div class="box-product">
+            <img src="./images/NIketravisscott.jpeg" width="200" alt="travis scott">
+            <p class="caption-product">Nike Travis scott</p>
+            <p class="price">RM 1000</p>
+            <a class="buy-button" href="https://www.instagram.com/sheeshshoes_/">BUY</a>
+        </div>
+        <div class="box-product">
+            <img src="./images/NikeBlazer.jpeg" width="200" alt="blazer">
+            <p class="caption-product">Nike Blazer</p>
+            <p class="price">RM 1000</p>
+            <a class="buy-button" href="https://www.instagram.com/sheeshshoes_/">BUY</a>
+        </div>
+        <div class="box-product">
+            <img src="./images/Nikesbdunklow.jpeg" width="200" alt="sb down low">
+            <p class="caption-product">Nike sb dunk low</p>
+            <p class="price">RM 1000</p>
+            <a class="buy-button" href="https://www.instagram.com/sheeshshoes_/">BUY</a>
+        </div>
+        <div class="box-product">
+            <img src="./images/nikeairmax97.jpeg" width="200" alt="air max 97">
+            <p class="caption-product">Nike air max 97</p>
+            <p class="price">RM 1000</p>
+            <a class="buy-button" href="https://www.instagram.com/sheeshshoes_/">BUY</a>
+        </div>
+        <div class="box-product">
+            <img src="./images/NIketravisscott.jpeg" width="200" alt="travis scott">
+            <p class="caption-product">Nike Travis scott</p>
+            <p class="price">RM 1000</p>
+            <a class="buy-button" href="https://www.instagram.com/sheeshshoes_/">BUY</a>
+        </div>
+        <div class="box-product">
+            <img src="./images/NikeBlazer.jpeg" width="200" alt="blazer">
+            <p class="caption-product">Nike Blazer</p>
+            <p class="price">RM 1000</p>
+            <a class="buy-button" href="https://www.instagram.com/sheeshshoes_/">BUY</a>
+        </div>
+        <div class="box-product">
+            <img src="./images/Nikesbdunklow.jpeg" width="200" alt="sb down low">
+            <p class="caption-product">Nike sb dunk low</p>
+            <p class="price">RM 1000</p>
+            <a class="buy-button" href="https://www.instagram.com/sheeshshoes_/">BUY</a>
+        </div>
+        <div class="box-product">
+            <img src="./images/nikeairmax97.jpeg" width="200" alt="air max 97">
+            <p class="caption-product">Nike air max 97</p>
+            <p class="price">RM 1000</p>
+            <a class="buy-button" href="https://www.instagram.com/sheeshshoes_/">BUY</a>
+        </div>
+        <div class="box-product">
+            <img src="./images/NIketravisscott.jpeg" width="200" alt="travis scott">
+            <p class="caption-product">Nike Travis scott</p>
+            <p class="price">RM 1000</p>
+            <a class="buy-button" href="https://www.instagram.com/sheeshshoes_/">BUY</a>
+        </div>-->
+        </div> 
+    
+    </div>
+    <script src="./assets/script.js"></script>
+</body>
+</html>
