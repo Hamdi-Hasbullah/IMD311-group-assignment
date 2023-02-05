@@ -1,4 +1,5 @@
 const para = document.querySelector('.box-container');
+const element = document.querySelector('.myP');
 
 window.onscroll = function() {myFunction()};
 
