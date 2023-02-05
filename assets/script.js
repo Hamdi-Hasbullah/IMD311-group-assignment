@@ -1,5 +1,3 @@
-const faqs = document.querySelectorAll(".faq")
-const element = document.querySelector('.myP');
 const para = document.querySelector('.box-container');
 
 window.onscroll = function() {myFunction()};
@@ -14,11 +12,3 @@ function myFunction() {
     para.classList.remove('animate__animated', 'animate__fadeInLeft');
     }
 }
-
-//using arrow function to FAQs site
-//add event listener method to make event target for the toggle to make symbol change when user click
-faqs.forEach(faq => {
-    faq.addEventListener("click", () => {
-        faq.classList.toggle("active");
-    })
-})

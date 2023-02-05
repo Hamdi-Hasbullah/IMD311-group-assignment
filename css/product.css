@@ -163,6 +163,7 @@ pre {
 
 .caption-product {
     margin: 10px;
+    text-transform: capitalize;
 }
 
 .price {

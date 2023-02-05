@@ -2,42 +2,42 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-  }
-  
-  body {
+}
+
+body {
     background-color: #1c1c1c;
     font-family: 'Quicksand', sans-serif;
     color: white;
-  }
-  
-  nav {
+}
+
+nav {
     display: flex;
     width: 100%; 
     justify-content: space-between;
     height: 90px;
     align-items: center;
     background-color: #000000;
-  }
-  .logo {
+}
+.logo {
     font-size: 20px;
     color: silver;
     margin: 10px 0px 0px 40px;
-  }
-  nav ul {
+}
+nav ul {
     display: flex;
     list-style: none;
     width: 35%;
     justify-content: space-between;
     margin-right: 40px;
     margin-bottom: 20px;
-  }
-  .underline {
+}
+.underline {
     display: inline-block;
     position: relative;
     color: silver;
     padding: 5px;
-  }
-  .underline:after {
+}
+.underline:after {
     content: '';
     position: absolute;
     width: 100%;
@@ -133,7 +133,12 @@ input[type=submit]:active , input[type=reset]:active{
 
 .location-map {
     margin: 100px auto 0px auto;
-    width: 1210px ;
+    width: 100% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
 }
 
 button{
